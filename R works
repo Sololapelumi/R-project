@@ -1,0 +1,12 @@
+Film_title<- c("Accepted","Pitch Perfect", "Harry Potter", "Twilight", "Fast and furious","Spiderman", "The Greatest Showman","The Lord of the Rings","The Auction","Remember the Goal","The Perfect Race","Abejoye","Gbemi","Quam's Money","The Old Guard")
+Film_title
+Lead_actors<- c("Justin Long", "Anna Kendrick","Daniel Radcliffe","Kristen Stewart","Vin Diesel","Tobey Maguire","Zac Efron","Elijah Wood","Timini Egbuson", "Allee-Sutton Hethcoat","Clarence Gilyard","Mike Bamiloye","Emmanuella Mike-Bamiloye","Falz","Charlize Theron")
+Lead_actors
+Year_of_release<- c(2006, 2012, 2001, 2008, 2001, 2002, 2017, 2001, 2018, 2016, 2019, 2018, 2019, 2020, 2020)
+Year_of_release
+movie_details<- data.frame("SN"=1:15,Film_title,Lead_actors,Year_of_release)
+movie_details
+My_fave_movies <- list(c(Film_title,Lead_actors,Year_of_release))
+My_fave_movies
+Movies<- as.array(c(Film_title,Lead_actors,Year_of_release))
+Movies
